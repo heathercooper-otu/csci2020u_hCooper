@@ -1,0 +1,13 @@
+plugins {
+  id "application"
+}
+
+apply plugin: 'java'
+
+ext{
+  javaMainClass = "csci2020u.lab02.SimpleTest"
+}
+
+application{
+  mainClassName = javaMainClass
+}
